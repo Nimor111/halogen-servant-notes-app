@@ -1,0 +1,26 @@
+# Dependencies
+.psci_modules
+bower_components
+node_modules
+.spago
+.spago2nix
+
+# Generated files
+.psci
+output
+.cache
+
+# Build directories
+dist
+result
+
+# build files
+yarn.nix
+yarn-error.log
+.parcel-cache/
+
+# Auto-generated from tailwind
+assets/styles/main.css
+
+# Spago2nix deps
+spago-packages.nix
